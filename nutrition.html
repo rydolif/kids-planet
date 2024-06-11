@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>Page</title>
+	<meta name="description" content="Lancaster 16-18">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	<link rel="stylesheet" href="css/app.min.css">
+	<script src="js/app.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+	
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container container">
+
+			<div class="header__wrap">
+				<a href="/" class="header__logo">
+					<img src="./images/dist/logo.svg" alt="">
+				</a>
+
+				<nav class="header__nav">
+					<ul>
+						<li><a href="index.html">About Us</a></li>
+						<li><a href="nutrition.html">Curriculum and Nutrition</a></li>
+						<li><a href="team.html">Our Team</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+
+				<div class="header__right">
+					<div class="header__lang">
+						<div class="menu-lang-container">
+							<ul id="menu-lang" class="menu">
+								<li  class="menu-item">
+									<a href="#">ENG <img src="./images/dist/arrow.svg" alt=""></a>
+									<ul class="sub-menu">
+										<li class="lang-item ">ENG</a>
+										<li class="lang-item ">RUS</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="header__social">
+						<a href="#"><img src="./images/dist/insta.svg" alt=""></a>
+						<a href="#"><img src="./images/dist/facebook.svg" alt=""></a>
+					</div>
+				</div>
+
+				<button class="hamburger" type="button">
+					<span class="hamburger__item"></span>
+				</button>
+			</div>
+
+		</div>
+	</header>
+
+<section class="curriculum">
+	<div class="container curriculum__container">
+		<h2 class="title title__curriculum">Curriculum</h2>
+		<div class="curriculum__img anim__img"></div>
+		<p class="curriculum__text">
+			In our daycare, children find themselves in a magical world of learning and play, where every day is filled with amazing discoveries and joyful adventures. We not only provide children with knowledge in mathematics, the Russian language, and logic but also inspire their creativity through drawing, clay modeling, and cutting out. Every day feels like a celebration here, as children enthusiastically immerse themselves in engaging activities and develop their skills and abilities.
+		</p>
+		<p class="curriculum__text">
+			Our outdoor play area transforms into a real paradise for children, where they can run, jump, ride on swings and bicycles, interact with other children, and develop their social skills. And the covered platform becomes a place where children can play and stroll in any weather, thanks to our reliable roofing. Even rain doesn't hinder our fun explorations!
+		</p> 
+		<p class="curriculum__text">
+			We strive to create an inspiring atmosphere where children enjoy themselves, grow, and develop every day. Our goal is to prepare them for successful school life, providing comprehensive development in a friendly and supportive environment.
+		</p>
+	</div>
+</section>
+
+<section class="curriculum curriculum__nutrition">
+	<div class="container curriculum__container">
+		<h2 class="title title__curriculum">Nutrition</h2>
+		<div class="nutrition__img anim__img"></div>
+		<p class="curriculum__text">
+			We understand the importance of providing children with balanced and nutritious meals throughout the day. Our five-meal plan is designed to ensure that children receive the essential nutrients they need for optimal growth, development, and overall well-being.
+		</p>
+		<p class="curriculum__text">
+			By offering regular meals and snacks, we help regulate children's energy levels, keeping them fueled and focused for learning and play. Each meal is carefully planned to include a variety of food groups, providing children with a diverse range of nutrients, vitamins, and minerals essential for their health.
+		</p> 
+		<p class="curriculum__text">
+			Our approach to nutrition extends beyond just filling bellies; it's about nurturing healthy habits that will benefit children throughout their lives. By introducing children to a wide variety of foods, we encourage them to develop adventurous palates and open minds to new flavors and textures.
+		</p>
+		<p class="curriculum__text">
+			Furthermore, our emphasis on nutritious eating helps instill positive attitudes towards food, teaching children to view eating as a pleasurable and rewarding experience. By modeling healthy eating habits and offering nutritious options, we empower children to make smart food choices that will support their long-term health and well-being.
+		</p>
+		<p class="curriculum__text">
+			Overall, our five-meal plan not only nourishes children's bodies but also nurtures their minds and spirits, laying the foundation for a lifetime of healthy living.
+		</p>
+	</div>
+</section>
+
+<section class="contact">
+	<div class="container">
+		<div class="contact__title">
+			<h2 class="title title__contact"><img class="contact__title_img" src="./images/dist/mail.svg" alt="">Fill the Form<br> and We Will Contact You ASAP</h2>
+		</div>
+
+		<form class="contact__form">
+			<div class="contact__form-group">
+				<input type="text" id="name" name="name" placeholder="Name" required>
+			</div>
+			<div class="contact__form-group">
+				<input type="tel" id="phone" name="phone" placeholder="Phone" required>
+			</div>
+			<div class="contact__form-group">
+				<input type="email" id="email" name="email" placeholder="Email" required>
+			</div>
+			<div class="contact__form-group">
+				<button type="submit" class="btn">Send</button>
+			</div>
+		</form>
+
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container footer__container">
+		<p>© 2024 KidsPlanet</p>
+		<p>All rights reserved</p>
+	</div>
+</footer>
